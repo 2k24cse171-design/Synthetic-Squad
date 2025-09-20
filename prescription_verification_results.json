@@ -1,0 +1,73 @@
+{
+  "timestamp": "2025-09-20T04:48:10.180117",
+  "patient_info": {
+    "name": "John Doe",
+    "age": 45,
+    "weight": 75.0,
+    "allergies": [
+      "penicillin"
+    ],
+    "conditions": [
+      "hypertension",
+      "arthritis"
+    ]
+  },
+  "extracted_info": {
+    "drugs": [
+      "lisinopril",
+      "ibuprofen"
+    ],
+    "dosages": [
+      [
+        "10",
+        "mg"
+      ],
+      [
+        "400",
+        "mg"
+      ],
+      [
+        "30",
+        "tablets"
+      ]
+    ],
+    "frequencies": [
+      "once daily"
+    ],
+    "extraction_method": "regex"
+  },
+  "drug_interactions": [],
+  "dosage_recommendations": [
+    {
+      "drug": "lisinopril",
+      "age_group": "adult",
+      "recommended_dosage": "2.5-5mg once daily initially",
+      "note": "Always consult healthcare provider"
+    },
+    {
+      "drug": "ibuprofen",
+      "age_group": "adult",
+      "recommended_dosage": "400-600mg every 6-8 hours (max 2.4g/day)",
+      "note": "Always consult healthcare provider"
+    }
+  ],
+  "alternatives": {
+    "lisinopril": [
+      "losartan",
+      "enalapril",
+      "captopril"
+    ],
+    "ibuprofen": [
+      "acetaminophen",
+      "naproxen",
+      "diclofenac"
+    ]
+  },
+  "safety_assessment": {
+    "overall_score": 85.0,
+    "risk_level": "low",
+    "recommendations": [
+      "Regular monitoring recommended"
+    ]
+  }
+}
